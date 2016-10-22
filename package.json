@@ -1,0 +1,29 @@
+{
+  "name": "expressMail",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "build": "babel src -d build",
+    "test": "./node_modules/.bin/mocha --reporter nyan",
+    "start": "nodemon --exec node app.js"
+  },
+  "keywords": [],
+  "author": "Kelvin Knighton",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "*",
+    "express": "*",
+    "jade": "*",
+    "nodemailer": "*"
+  },
+  "devDependencies": {
+    "babel": "*",
+    "babel-cli": "^6.14.0",
+    "babel-eslint": "*",
+    "eslint": "*",
+    "mocha": "^3.0.1",
+    "should": "^10.0.0",
+    "supertest": "^2.0.0"
+  }
+}
